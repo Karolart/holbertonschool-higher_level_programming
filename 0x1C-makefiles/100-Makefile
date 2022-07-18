@@ -3,15 +3,10 @@ SRC = main.c school.c
 OBJ = ${SRC:.c=.o}
 NAME = school
 CFLAGS = -Wall -Werror -Wextra -pedantic
-<<<<<<< HEAD
 
 all: m.h ${OBJ}
 	${CC} ${OBJ} -o ${NAME}
 
-=======
-all: $(OBJ) m.h
-	$(CC) $(OBJ) -o $(NAME)
->>>>>>> dc5c2a5756126e867a1f77f9923c9b8cc448e362
 clean:
 	${RM} *~ ${NAME}
 
@@ -21,9 +16,5 @@ oclean:
 fclean: clean oclean
 
 re: oclean all
-<<<<<<< HEAD
 
 .PHONY: clean oclean fclean re
-=======
-.PHONY: all clean oclean fclean re
->>>>>>> dc5c2a5756126e867a1f77f9923c9b8cc448e362
