@@ -1,6 +1,9 @@
 #include “search_algos.h”
 #include<math.h>
+
 size_t min(size_t a, size_t b);
+
+
 /**
  * jump_search - function that searches for a value in an array of
  * integers using the Binary search algorithm
