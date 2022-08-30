@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# A Bash script that configures a new Ubuntu machine
+sudo apt-get -y update
+sudo apt-get -y upgrade
+sudo apt-get -y install nginx
+sudo service nginx start
+echo "Hello World" | sudo tee /usr/share/nginx/html/index.html
