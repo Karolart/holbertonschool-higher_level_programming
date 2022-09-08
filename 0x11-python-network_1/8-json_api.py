@@ -7,6 +7,7 @@ with the letter as a parameter
 if __name__ == '__main__':
     import requests
     from sys import argv
+    
     if len(argv) == 2:
         q = argv[1]
     else:
