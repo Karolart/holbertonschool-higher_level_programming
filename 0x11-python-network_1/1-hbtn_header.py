@@ -1,5 +1,3 @@
-able File  11 lines (11 sloc)  363 Bytes
-
 #!/usr/bin/python3
 """
 takes in a URL, sends a request to the URL and displays the value of the
